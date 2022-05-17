@@ -12212,3 +12212,7 @@ header.masthead .post-heading .meta a {
   height: auto;
   margin: 1%;
 }
+
+.shop-item {
+  max-width: 100%;
+}
