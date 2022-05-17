@@ -49,7 +49,7 @@
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <div class="post-heading">
                         <h1>구독 신청</h1>
-                        <h2 class="subheading">원하는 날짜, 원하는 시간에 커피를 받아보세요.</h2>
+                        <h2 class="subheading">원하는 날짜, 원하는 시간에 상품을 받아보세요.</h2>
 
                     </div>
                 </div>
@@ -61,24 +61,112 @@
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
-                    <p>여기에는 무슨 내용이 들어가야할까요</p>
-                    <h2 class="section-heading">들어갈 리스트</h2>
-                    <p>1. 구독 선택 폼</p>
-                    <p>2. 구독하기 버튼</p>
-                    <blockquote class="blockquote">부가설명</blockquote>
-                    <p>내용~</p>
-                    <h2 class="section-heading">부제목</h2>
-                    <p>글 내용~</p>
-                    <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
-                    <span class="caption text-muted">이미지 설명</span>
-                    <p>
-                        하이퍼링크 예시
-                        <a href="https://www.naver.com/">네이버 링크</a>
-                        &middot;
-                    </p>
+                    <div class="container" id="input-form">
+                        <div class="input-form-backgroud row">
+                            <div class="input-form col-md-12 mx-auto">
+                                <h4 class="mb-3">정기적으로 커피민을 받아보세요😀</h4>
+                                <form class="validation-form" novalidate>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3"> <label for="name">이름</label> <input type="text"
+                                                class="form-control" id="name" placeholder="" value="" required>
+                                            <div class="invalid-feedback"> 이름을 입력해주세요. </div>
+                                        </div>
+                                        <div class="col-md-6 mb-3"> <label for="phone">전화번호</label> <input type="text"
+                                                class="form-control" id="phone" placeholder="010-0000-0000" value=""
+                                                required>
+                                            <div class="invalid-feedback"> 연락처를 입력해주세요. </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3"> <label for="email">이메일</label> <input type="email"
+                                            class="form-control" id="email" placeholder="you@example.com" required>
+                                        <div class="invalid-feedback"> 이메일을 입력해주세요. </div>
+                                    </div>
+                                    <div class="mb-3"> <label for="address">주소</label> <input type="text"
+                                            class="form-control" id="address" placeholder="서울특별시 강남구" required>
+                                        <div class="invalid-feedback"> 주소를 입력해주세요. </div>
+                                    </div>
+                                    <div class="mb-3"> <label for="address2">상세주소</label>
+                                        <input type="text" class="form-control" id="address2"
+                                            placeholder="상세주소를 입력해주세요.">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-8 mb-3"> <label for="choice">상품 선택</label> <select
+                                                class="custom-select d-block w-100" id="choice">
+                                                <option value=""></option>
+                                                <option>아이스 아메리카노</option>
+                                                <option>카페라떼</option>
+                                                <option>딸기라떼</option>
+                                                <option>녹차라떼</option>
+                                                <option>자몽에이드</option>
+                                                <option>레몬에이드</option>
+                                                <option>쿠키칩 프라페</option>
+                                                <option>더블 자바칩 프라페</option>
+                                                <option>햄치즈 샌드위치</option>
+                                                <option>에그 포테이토 샌드위치</option>
+                                                <option>참치마요 샌드위치</option>
+                                                <option>와플</option>
+                                            </select>
+                                            <div class="invalid-feedback"> 가입 경로를 선택해주세요. </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-8 mb-3"> <label for="root">원하는 구독 요일</label>
+                                                <br>
+                                                <h6><input class="form-check-input" type="checkbox"
+                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
+                                                    <label class="form-check-label" for="flexcheckboxDefault1">
+                                                        월요일
+                                                    </label>
+                                                    <input class="form-check-input" type="checkbox"
+                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
+                                                    <label class="form-check-label" for="flexcheckboxDefault1">
+                                                        화요일
+                                                    </label>
+                                                    <input class="form-check-input" type="checkbox"
+                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
+                                                    <label class="form-check-label" for="flexcheckboxDefault1">
+                                                        수요일
+                                                    </label>
+                                                    <input class="form-check-input" type="checkbox"
+                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
+                                                    <label class="form-check-label" for="flexcheckboxDefault1">
+                                                        목요일
+                                                    </label>
+                                                    <br>
+                                                    <input class="form-check-input" type="checkbox"
+                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
+                                                    <label class="form-check-label" for="flexcheckboxDefault1">
+                                                        금요일
+                                                    </label>
+                                                    <input class="form-check-input" type="checkbox"
+                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
+                                                    <label class="form-check-label" for="flexcheckboxDefault1">
+                                                        토요일
+                                                    </label>
+                                                    <input class="form-check-input" type="checkbox"
+                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
+                                                    <label class="form-check-label" for="flexcheckboxDefault1">
+                                                        일요일
+                                                    </label>
+                                                </h6>
+                                            </div>
+
+                                        </div>
+                                        <hr class="mb-4">
+                                        <div class="custom-control custom-checkbox"> <input type="checkbox"
+                                                class="custom-control-input" id="aggrement" required> <label
+                                                class="custom-control-label" for="aggrement">개인정보 수집 및 이용에
+                                                동의합니다.</label> </div>
+                                        <div class="mb-4"></div> <button class="btn btn-primary btn-lg btn-block"
+                                            type="submit">구독 신청</button>
+                                        <br>
+                                        <h6>*작성하신 연락처로 구독 관련 정보가 전송됩니다.</h6>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
     </article>
     <!-- Footer-->
     <footer class="border-top">
