@@ -33,23 +33,22 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="shop.html">Shop</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="subscribe.html">Subscribe</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">1:1 문의</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Page Header-->
-    <header class="masthead" style="background-image: url('assets/img/subscribe-bg.jpg')">
+    <header class="masthead" style="background-image: url('assets/img/shop-bg.jpg')">
         <div class="container position-relative px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <div class="post-heading">
-                        <h1>구독 신청</h1>
-                        <h2 class="subheading">원하는 날짜, 원하는 시간에 상품을 받아보세요.</h2>
+                        <h1>커피민 구독하기</h1>
+                        <h2 class="subheading">취향에 맞는 메뉴를 선택하세요.</h2>
 
                     </div>
                 </div>
@@ -57,117 +56,391 @@
         </div>
     </header>
     <!-- Post Content-->
-    <article class="mb-4">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <div class="container" id="input-form">
-                        <div class="input-form-backgroud row">
-                            <div class="input-form col-md-12 mx-auto">
-                                <h4 class="mb-3">정기적으로 커피민을 받아보세요😀</h4>
-                                <form class="validation-form" novalidate>
-                                    <div class="row">
-                                        <div class="col-md-6 mb-3"> <label for="name">이름</label> <input type="text"
-                                                class="form-control" id="name" placeholder="" value="" required>
-                                            <div class="invalid-feedback"> 이름을 입력해주세요. </div>
-                                        </div>
-                                        <div class="col-md-6 mb-3"> <label for="phone">전화번호</label> <input type="text"
-                                                class="form-control" id="phone" placeholder="010-0000-0000" value=""
-                                                required>
-                                            <div class="invalid-feedback"> 연락처를 입력해주세요. </div>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3"> <label for="email">이메일</label> <input type="email"
-                                            class="form-control" id="email" placeholder="you@example.com" required>
-                                        <div class="invalid-feedback"> 이메일을 입력해주세요. </div>
-                                    </div>
-                                    <div class="mb-3"> <label for="address">주소</label> <input type="text"
-                                            class="form-control" id="address" placeholder="서울특별시 강남구" required>
-                                        <div class="invalid-feedback"> 주소를 입력해주세요. </div>
-                                    </div>
-                                    <div class="mb-3"> <label for="address2">상세주소</label>
-                                        <input type="text" class="form-control" id="address2"
-                                            placeholder="상세주소를 입력해주세요.">
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-8 mb-3"> <label for="choice">상품 선택</label> <select
-                                                class="custom-select d-block w-100" id="choice">
-                                                <option value=""></option>
-                                                <option>아이스 아메리카노</option>
-                                                <option>카페라떼</option>
-                                                <option>딸기라떼</option>
-                                                <option>녹차라떼</option>
-                                                <option>자몽에이드</option>
-                                                <option>레몬에이드</option>
-                                                <option>쿠키칩 프라페</option>
-                                                <option>더블 자바칩 프라페</option>
-                                                <option>햄치즈 샌드위치</option>
-                                                <option>에그 포테이토 샌드위치</option>
-                                                <option>참치마요 샌드위치</option>
-                                                <option>와플</option>
-                                            </select>
-                                            <div class="invalid-feedback"> 가입 경로를 선택해주세요. </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-md-8 mb-3"> <label for="root">원하는 구독 요일</label>
-                                                <br>
-                                                <h6><input class="form-check-input" type="checkbox"
-                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
-                                                    <label class="form-check-label" for="flexcheckboxDefault1">
-                                                        월요일
-                                                    </label>
-                                                    <input class="form-check-input" type="checkbox"
-                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
-                                                    <label class="form-check-label" for="flexcheckboxDefault1">
-                                                        화요일
-                                                    </label>
-                                                    <input class="form-check-input" type="checkbox"
-                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
-                                                    <label class="form-check-label" for="flexcheckboxDefault1">
-                                                        수요일
-                                                    </label>
-                                                    <input class="form-check-input" type="checkbox"
-                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
-                                                    <label class="form-check-label" for="flexcheckboxDefault1">
-                                                        목요일
-                                                    </label>
-                                                    <br>
-                                                    <input class="form-check-input" type="checkbox"
-                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
-                                                    <label class="form-check-label" for="flexcheckboxDefault1">
-                                                        금요일
-                                                    </label>
-                                                    <input class="form-check-input" type="checkbox"
-                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
-                                                    <label class="form-check-label" for="flexcheckboxDefault1">
-                                                        토요일
-                                                    </label>
-                                                    <input class="form-check-input" type="checkbox"
-                                                        name="flexcheckboxDefault" id="flexcheckboxDefault1">
-                                                    <label class="form-check-label" for="flexcheckboxDefault1">
-                                                        일요일
-                                                    </label>
-                                                </h6>
-                                            </div>
-
-                                        </div>
-                                        <hr class="mb-4">
-                                        <div class="custom-control custom-checkbox"> <input type="checkbox"
-                                                class="custom-control-input" id="aggrement" required> <label
-                                                class="custom-control-label" for="aggrement">개인정보 수집 및 이용에
-                                                동의합니다.</label> </div>
-                                        <div class="mb-4"></div> <button class="btn btn-primary btn-lg btn-block"
-                                            type="submit">구독 신청</button>
-                                        <br>
-                                        <h6>*작성하신 연락처로 구독 관련 정보가 전송됩니다.</h6>
-                                </form>
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <img class="shop-item" src="assets/img/iceamericano.jpg" alt="아이스아메리카노" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">아이스 아메리카노</h5>
+                                <!-- Product price-->
+                                2,500원
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    onclick="window.open('subscribe_popup.html','','width=800,height=1000,location=no,status=no,scrollbars= 0, toolbar=0, menubar=no');">구독하기</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                        </div> -->
+                        <!-- Product image-->
+                        <img class="shop-item" src="assets/img/icelatte.jpg" alt="아이스카페라떼" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">카페라떼</h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">3,000원</span>
+                                2,500원
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    onclick="window.open('subscribe_popup.html','','width=800,height=1000,location=no,status=no,scrollbars= 0, toolbar=0, menubar=no');">구독하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                        </div> -->
+                        <!-- Product image-->
+                        <img class="shop-item" src="assets/img/berrylatte.jpg" alt="딸기라떼" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">딸기라떼</h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">4,000원</span>
+                                3,500원
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    onclick="window.open('subscribe_popup.html','','width=800,height=1000,location=no,status=no,scrollbars= 0, toolbar=0, menubar=no');">구독하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                        </div> -->
+                        <!-- Product image-->
+                        <img class="shop-item" src="assets/img/greentealatte.jpg" alt="녹차라떼" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">녹차라떼</h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">4,000원</span>
+                                3,500원
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    onclick="window.open('subscribe_popup.html','','width=800,height=1000,location=no,status=no,scrollbars= 0, toolbar=0, menubar=no');">구독하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                        </div> -->
+                        <!-- Product image-->
+                        <img class="shop-item" src="assets/img/jamongade.jpg" alt="자몽에이드" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">자몽에이드</h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">4,000원</span>
+                                3,500원
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    onclick="window.open('subscribe_popup.html','','width=800,height=1000,location=no,status=no,scrollbars= 0, toolbar=0, menubar=no');">구독하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                        </div> -->
+                        <!-- Product image-->
+                        <img class="shop-item" src="assets/img/lemonade.jpg" alt="레몬에이드" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">레몬에이드</h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">4,000원</span>
+                                3,500원
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    onclick="window.open('subscribe_popup.html','','width=800,height=1000,location=no,status=no,scrollbars= 0, toolbar=0, menubar=no');">구독하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                        </div> -->
+                        <!-- Product image-->
+                        <img class="shop-item" src="assets/img/cookiefrappe.jpg" alt="쿠키프라페" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">쿠키칩 프라페</h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+                                4,000원
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    onclick="window.open('subscribe_popup.html','','width=800,height=1000,location=no,status=no,scrollbars= 0, toolbar=0, menubar=no');">구독하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                                        </div> -->
+                        <!-- Product image-->
+                        <img class="shop-item" src="assets/img/doublejava.jpg" alt="더블자바칩프라페" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">더블 자바칩 프라페</h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+                                4,000원
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    onclick="window.open('subscribe_popup.html','','width=800,height=1000,location=no,status=no,scrollbars= 0, toolbar=0, menubar=no');">구독하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                        </div> -->
+                        <!-- Product image-->
+                        <img class="shop-item" src="assets/img/hamcheesesand.jpg" alt="햄치즈샌드위치" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">햄치즈 샌드위치</h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+                                3,800원
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    onclick="window.open('subscribe_popup.html','','width=800,height=1000,location=no,status=no,scrollbars= 0, toolbar=0, menubar=no');">구독하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                        </div> -->
+                        <!-- Product image-->
+                        <img class="shop-item" src="assets/img/eggpotatosand.jpg" alt="에그포테이토샌드위치" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">에그 포테이토 샌드위치</h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+                                4,000원
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    onclick="window.open('subscribe_popup.html','','width=800,height=1000,location=no,status=no,scrollbars= 0, toolbar=0, menubar=no');">구독하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                        </div> -->
+                        <!-- Product image-->
+                        <img class="shop-item" src="assets/img/tunamayosand.jpg" alt="참치마요샌드위치" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">참치마요 샌드위치</h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+                                4,000원
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    onclick="window.open('subscribe_popup.html','','width=800,height=1000,location=no,status=no,scrollbars= 0, toolbar=0, menubar=no');">구독하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <!-- <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                        </div> -->
+                        <!-- Product image-->
+                        <img class="shop-item" src="assets/img/waffle.jpg" alt="와플" />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">와플(토핑 추가 가능)</h5>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                                <!-- Product price-->
+                                2,000원
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    onclick="window.open('subscribe_popup.html','','width=800,height=1000,location=no,status=no,scrollbars= 0, toolbar=0, menubar=no');">구독하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-    </article>
+        </div>
+    </section>
     <!-- Footer-->
     <footer class="border-top">
         <div class="container px-4 px-lg-5">

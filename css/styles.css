@@ -12210,8 +12210,10 @@ header.masthead .post-heading .meta a {
 #img-about {
   max-width: 30%;
   height: auto;
-  margin: 1%;
+  margin: 2%;
+  position: relative;
 }
+
 
 .shop-item {
   max-width: 100%;
@@ -12232,4 +12234,38 @@ header.masthead .post-heading .meta a {
 
 #input-form {
   min-height: 100vh;
+}
+
+.lb-wrap {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+
+}
+
+.black-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.lb-image {
+  position: relative;
+}
+
+.lb-wrap img {
+  width: 100%;
+}
+
+.lb-text {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
