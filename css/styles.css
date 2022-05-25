@@ -12239,18 +12239,8 @@ header.masthead .post-heading .meta a {
 .lb-wrap {
   width: 100%;
   height: auto;
-  display: flex;
   position: relative;
   flex-direction: row;
-
-}
-
-.black-overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  z-index: 1;
 }
 
 .lb-image {
@@ -12258,7 +12248,10 @@ header.masthead .post-heading .meta a {
 }
 
 .lb-wrap img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 5%;
 }
 
 .lb-text {
@@ -12268,4 +12261,8 @@ header.masthead .post-heading .meta a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.font-change {
+  font-family: 'Nanum Myeongjo', serif;
 }
